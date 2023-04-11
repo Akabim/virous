@@ -70,3 +70,24 @@ const swiper3 = new Swiper(".swiper3", {
     },
   },
 });
+
+const swiper4 = new Swiper(".swiper4", {
+  // Optional parameters
+  direction: "horizontal",
+  loop: true,
+  spaceBetween: 2,
+  slidesPerView: 2,
+  centerSlide: true,
+  autoplay: {
+    delay: 2000,
+  },
+  breakpoints: {
+    768: {
+      slidesPerView: 2,
+    },
+    1024: {
+      slidesPerView: 3,
+      spaceBetween: 0,
+    },
+  },
+});
