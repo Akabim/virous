@@ -52,11 +52,9 @@ const swiper2 = new Swiper(".swiper2", {
 const swiper3 = new Swiper(".swiper3", {
   // Optional parameters
   direction: "horizontal",
-  loop: true,
   spaceBetween: 2,
   slidesPerView: 4,
   centerSlide: true,
-  mousewheel: true,
   autoplay: {
     delay: 2000,
   },
@@ -74,8 +72,7 @@ const swiper3 = new Swiper(".swiper3", {
 const swiper4 = new Swiper(".swiper4", {
   // Optional parameters
   direction: "horizontal",
-  loop: true,
-  spaceBetween: 2,
+  spaceBetween: 1,
   slidesPerView: 2,
   centerSlide: true,
   autoplay: {
