@@ -36,7 +36,7 @@ body {
 }
 .hero-img2 {
   @apply w-full object-cover;
-  background-image: url(../dist/img/header1.jpg);
+  background-image: url(../dist/img/bg2.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
