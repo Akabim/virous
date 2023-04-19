@@ -104,7 +104,7 @@ const swiper5 = new Swiper(".swiper5", {
     },
     1024: {
       slidesPerView: 4,
-      spaceBetween: 0,
+      spaceBetween: 100,
     },
   },
 });
