@@ -596,10 +596,6 @@ video {
   margin-left: 2.5rem;
 }
 
-.ml-4 {
-  margin-left: 1rem;
-}
-
 .mr-2 {
   margin-right: 0.5rem;
 }
@@ -1010,7 +1006,7 @@ body {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-  background-image: url(../dist/img/hero-img1.png);
+  background-image: url(../dist/img/hero-img1.webp);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -1253,4 +1249,4 @@ body {
   .xl\:w-1\/3 {
     width: 33.333333%;
   }
-} 
+}

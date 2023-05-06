@@ -30,7 +30,7 @@ body {
 
 .hero-image {
   @apply w-full object-cover;
-  background-image: url(../dist/img/hero-img1.png);
+  background-image: url(../dist/img/hero-img1.webp);
   background-repeat: no-repeat;
   background-size: cover;
-} 
+}
