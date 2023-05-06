@@ -33,10 +33,4 @@ body {
   background-image: url(../dist/img/hero-img1.png);
   background-repeat: no-repeat;
   background-size: cover;
-}
-.hero-img2 {
-  @apply w-full object-cover;
-  background-image: url(../dist/img/bg2.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+} 
