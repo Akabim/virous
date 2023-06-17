@@ -108,3 +108,23 @@ const swiper5 = new Swiper(".swiper5", {
     },
   },
 });
+const swiper6 = new Swiper(".swiper6", {
+  // Optional parameters
+  loop: true,
+  direction: "horizontal",
+  spaceBetween: 0,
+  slidesPerView: 2,
+  centerSlide: true,
+  autoplay: {
+    delay: 2000,
+  },
+  breakpoints: {
+    768: {
+      slidesPerView: 2,
+    },
+    1024: {
+      slidesPerView: 3,
+      spaceBetween: 100,
+    },
+  },
+});
